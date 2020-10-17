@@ -12,20 +12,20 @@ Built-in empirical standard deviation = : 0.2874
 My uniform random number generator using LGM method work as expected to generate 10,000 uniformly distributed number in [0,1]. However, the python built- in function is faster significantly. The mean and standard deviation from the two generators are approximately the same.  
 
 
-* Part 2 - Binomial(n=44, p = 0.64)
+* Part 2 - Binomial(n=44, p = 0.64)  
 Binomial(n,p) is a sum of n Bernoulli(p). We first genrate Unform variable, then Bernoulli, then Binomial.   
 
 Histogram  
 <img width=“964” src="https://github.com/MINAYUAN/Random-Variable-Generator/blob/main/binom.png">
 
 
-* Part 3 - Exponential(lambda = 1.5)
+* Part 3 - Exponential(lambda = 1.5)  
 Generating Exponentially distribution using the inverse transofrmation method, where we can generate a variate Y by inversing the distribution function. 
 
 Histogram  
 <img src="https://github.com/MINAYUAN/Random-Variable-Generator/blob/main/exp.png">
 
-* Part 4 - Normal(0,1) with Box-Muller Method. 
+* Part 4 - Normal(0,1) with Box-Muller Method.  
 Box-Muller Method can generate standard and independent Normal, given identically and independently distributed uniform random numbers. The method takes a continous two dimensional uniform distribution. **Box-Muller is significantly faster than Polar-Marsaglia methods in computation time.**  
 
 Histogram  
