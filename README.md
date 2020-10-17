@@ -1,7 +1,7 @@
 # Random-Variable-Generator
-Generate and plot sample of Uniform, Normal, Bernoulli, Binomial, Exponential, and Standard Normal random variables using methods including LGM, Box-Muller, Polar-Marsaglia.
+Generate and plot sample of Uniform, Normal, Binomial, Exponential, and Standard Normal random variables using methods including LGM, Box-Muller, Polar-Marsaglia.
 
-* Part 1 - Uniform
+* Part 1 - Uniform  
 We want to generate 10,000 Uniformly distributed random number on [0,1] using LGM and compare with built-in python function. 
 
 LGM empirical mean = 0.4996  
