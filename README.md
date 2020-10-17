@@ -15,8 +15,8 @@ My uniform random number generator using LGM method work as expected to generate
 *Part 2 - Binomial(n=44, p = 0.64)*
 Binomial(n,p) is a sum of n Bernoulli(p). We first genrate Unform variable, then Bernoulli, then Binomial. 
 
-Histogram   
-https://github.com/MINAYUAN/Random-Variable-Generator/blob/main/binom.png
- 
+Histogram  
+<img width=“964” src="https://github.com/MINAYUAN/Random-Variable-Generator/blob/main/binom.png">
+
 
 
